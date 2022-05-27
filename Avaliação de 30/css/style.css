@@ -1,0 +1,297 @@
+body {
+    font-family: 'Time New Roman';
+    letter-spacing: 3px;
+    word-spacing: 1.2px;
+    background-color: rgb(26, 72, 90);
+    overflow-x: hidden;
+}
+
+header {
+    border: 3px solid rgb(53, 105, 139);
+    border-collapse:initial;
+    display:flex; 
+    flex-wrap:wrap;
+    align-items:center;
+    text-align:center; 
+}
+
+#logo {
+    height: 90px;
+    display:flex;
+    display: inline-block;
+    margin: 5px 25px 5px 30px;
+}
+
+header h1 {
+    color: rgb(173, 230, 253);
+    font-size: 38px;
+    font-weight: Time New Roman; 
+    text-shadow: -2px 2px 4px #270e6d;
+}
+
+.menu-principal {
+    background-color: rgb(6, 100, 155);
+    font-size: 24px; 
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-align:center;
+    height: 60px;
+}
+
+.menu-principal li {
+    display: flex;
+    display:inline; 
+}
+
+.menu-principal a{
+    color: rgb(255, 255, 255); 
+}
+
+.menu-principal a:hover {
+    color: rgb(252, 252, 252);
+    font-size: 28px; 
+    text-decoration:double;
+}
+
+#autoestima {
+    text-align:center;
+    color:rgb(255, 255, 255);
+    display: inline;
+    width: 75%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#autoestima img {
+    max-width: 600px;
+    margin: 20px 80px -10px 0px;
+    align-items:center;
+    margin-left: 300px;
+
+}
+
+#autoestima p {
+    box-shadow: -3px 2px 15px rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 15px 10px;
+    text-indent: 4em;
+    text-align:center;
+    line-height: 1.8em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 90%;
+    font-weight: bold;
+}
+
+.img-odonto{
+    float: right;
+    width: 20%;
+}
+
+.img-odonto img {
+    max-width: 680px;
+    margin-left: -700px;
+    padding-top: 20px;
+}
+
+.footer-content {
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 20px;
+    width: 100%;
+}
+
+.footer-content img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+
+/*Style: Sobre*/ 
+
+.sobre {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#content-sobre p {
+    background-color: rgb(109, 111, 214);
+    box-shadow: -3px 2px 15px rgb(250, 250, 250);
+    font-size: 22px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align:center;
+    line-height: 2.5em;
+    padding: 2px 80px;
+    display: inline;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(37, 49, 158);
+}
+
+
+#content-sobre h3 {
+    color: rgb(244, 244, 255);
+    font-size: 80px;
+    font-weight:bolder;
+    margin-bottom: 100px;
+}
+
+/*Style: Novidades*/
+
+.novidades {
+    background-color: rgb(54, 91, 161);
+    padding: 50px;
+    text-align:center;
+}
+
+.novidades hr {
+    box-shadow: -8px 5px 10px rgb(255, 255, 255);
+    width: 70px;
+    height: 5px;
+    margin: 0px 15% 40px;
+}
+
+#content-novidades {
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+#content-novidades article {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#content-novidades h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin: -60px 20px 50px;
+}
+
+#content-novidades p{
+    background-color: rgba(79, 183, 231, 0.8);
+    box-shadow: -3px 2px 15px rgb(68, 89, 182);
+    font-size: 17px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.5em;
+    padding: 22px 80px;
+    display: inline-block;
+    width: 45%;
+    font-weight: bold;
+}
+
+#content-novidades img {
+    max-width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+
+/* Style: IMC */
+
+#calculo-imc {
+    border: 2px solid rgb(6, 9, 155);
+    background-color: rgb(78, 151, 196);
+    display:flex;
+    flex-wrap:wrap;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 30%;
+    height: 340px;
+    margin: 120px 40px 100px 100px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#calc-imc input {
+    width: 60px;
+    height: 40px;
+    margin: 10px 5px 5px;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+#calc-imc label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#calc-imc button {
+    width: 60%;
+    font-size: 17px;
+    text-align:justify;
+    font-weight:bolder;
+    padding: 7px 0px 5px;
+    color: rgb(47, 19, 146);
+    margin-top:initial;
+    box-shadow: -4px 4px 5px rgb(255, 255, 255);
+    border-radius: 14px;
+    border:#270e6d;
+    position:absolute;
+}
+
+#calc-imc button:hover {
+    color: rgb(38, 152, 218);
+    background-color: rgb(216, 241, 216);
+    box-shadow: -8px 8px 5px rgb(117, 96, 238);
+    border: 2px solid rgb(128, 210, 243);
+}
+
+.result {
+    border: 3px solid rgb(58, 104, 202);
+    width: 40%;
+    height: 300px;
+    padding: 30px;
+    display:flex;
+    flex-flow:column;
+    align-items:initial;
+    text-align: center;
+    margin: 122px;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+
+.result h2 {
+    color: rgb(97, 176, 201);
+    font-size: 22px;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+
+.result div {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 5px 18px rgb(120, 167, 211);
+    max-width: 650px;
+    padding: 10px 15px;
+    height: 400px;
+    display:flex;
+}
+
+.page-result {
+    display: flex;
+}
+
+.result img{
+    width: 180px;
+    margin: 10px;
+    display:inline-block;
+}
